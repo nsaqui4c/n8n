@@ -23,6 +23,12 @@ npx n8n
 ```
 
 Or deploy with [Docker](https://docs.n8n.io/hosting/installation/docker/):
+```
+Connect to your VM via SSH.
+Update the package lists: sudo apt update && sudo apt upgrade -y.
+Install Docker: sudo apt install docker.io -y.
+Start and enable Docker: sudo systemctl start docker && sudo systemctl enable docker.
+```
 
 ```
 docker volume create n8n_data
